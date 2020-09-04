@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E1990DBDCA42BE0ED64F7CF /* Pods_Pixel_City.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953A0CD8605CECF355FC3B33 /* Pods_Pixel_City.framework */; };
+		D91D834124796531000FEAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91D834024796531000FEAD1 /* AppDelegate.swift */; };
+		D91D834324796531000FEAD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91D834224796531000FEAD1 /* SceneDelegate.swift */; };
+		D91D834524796531000FEAD1 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91D834424796531000FEAD1 /* MapVC.swift */; };
+		D91D834824796531000FEAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91D834624796531000FEAD1 /* Main.storyboard */; };
+		D91D834A24796534000FEAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91D834924796534000FEAD1 /* Assets.xcassets */; };
+		D91D834D24796534000FEAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91D834B24796534000FEAD1 /* LaunchScreen.storyboard */; };
+		D99F29362494E902007F5CD8 /* PopVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99F29352494E902007F5CD8 /* PopVc.swift */; };
+		D9A1F192248D541500762011 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A1F191248D541500762011 /* PhotoCell.swift */; };
+		D9BD9FEB248670360094C5A8 /* Dropablepin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BD9FEA248670360094C5A8 /* Dropablepin.swift */; };
+		D9F2748824902204008B5A93 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F2748724902204008B5A93 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8BA0E2B54D9593CAEABAB770 /* Pods-Pixel City.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixel City.release.xcconfig"; path = "Target Support Files/Pods-Pixel City/Pods-Pixel City.release.xcconfig"; sourceTree = "<group>"; };
+		953A0CD8605CECF355FC3B33 /* Pods_Pixel_City.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pixel_City.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7F0412C9ADE412A1EE5D50 /* Pods-Pixel City.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixel City.debug.xcconfig"; path = "Target Support Files/Pods-Pixel City/Pods-Pixel City.debug.xcconfig"; sourceTree = "<group>"; };
+		D91D833D24796531000FEAD1 /* Pixel City.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pixel City.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91D834024796531000FEAD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D91D834224796531000FEAD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D91D834424796531000FEAD1 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		D91D834724796531000FEAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D91D834924796534000FEAD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D91D834C24796534000FEAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D91D834E24796534000FEAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D99F29352494E902007F5CD8 /* PopVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVc.swift; sourceTree = "<group>"; };
+		D9A1F191248D541500762011 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		D9BD9FEA248670360094C5A8 /* Dropablepin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dropablepin.swift; sourceTree = "<group>"; };
+		D9F2748724902204008B5A93 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D91D833A24796531000FEAD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1990DBDCA42BE0ED64F7CF /* Pods_Pixel_City.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41A0A1590C18DF6EE4000270 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				953A0CD8605CECF355FC3B33 /* Pods_Pixel_City.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D91D833424796531000FEAD1 = {
+			isa = PBXGroup;
+			children = (
+				D91D833F24796531000FEAD1 /* Pixel City */,
+				D91D833E24796531000FEAD1 /* Products */,
+				E11E0A29E9202CBFD1DE3025 /* Pods */,
+				41A0A1590C18DF6EE4000270 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D91D833E24796531000FEAD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D91D833D24796531000FEAD1 /* Pixel City.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D91D833F24796531000FEAD1 /* Pixel City */ = {
+			isa = PBXGroup;
+			children = (
+				D91D8357247A0C22000FEAD1 /* Utilities */,
+				D91D8356247A0BFB000FEAD1 /* Extensions */,
+				D91D8355247A0BEA000FEAD1 /* View */,
+				D91D8354247A0BCC000FEAD1 /* Controller */,
+				D91D834024796531000FEAD1 /* AppDelegate.swift */,
+				D91D834224796531000FEAD1 /* SceneDelegate.swift */,
+				D91D834624796531000FEAD1 /* Main.storyboard */,
+				D91D834924796534000FEAD1 /* Assets.xcassets */,
+				D91D834B24796534000FEAD1 /* LaunchScreen.storyboard */,
+				D91D834E24796534000FEAD1 /* Info.plist */,
+			);
+			path = "Pixel City";
+			sourceTree = "<group>";
+		};
+		D91D8354247A0BCC000FEAD1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D91D834424796531000FEAD1 /* MapVC.swift */,
+				D99F29352494E902007F5CD8 /* PopVc.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D91D8355247A0BEA000FEAD1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9BD9FEA248670360094C5A8 /* Dropablepin.swift */,
+				D9A1F191248D541500762011 /* PhotoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D91D8356247A0BFB000FEAD1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D91D8357247A0C22000FEAD1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D9F2748724902204008B5A93 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E11E0A29E9202CBFD1DE3025 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC7F0412C9ADE412A1EE5D50 /* Pods-Pixel City.debug.xcconfig */,
+				8BA0E2B54D9593CAEABAB770 /* Pods-Pixel City.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D91D833C24796531000FEAD1 /* Pixel City */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D91D835124796534000FEAD1 /* Build configuration list for PBXNativeTarget "Pixel City" */;
+			buildPhases = (
+				1D7AAFAD5AD53BDC1D68AF4B /* [CP] Check Pods Manifest.lock */,
+				D91D833924796531000FEAD1 /* Sources */,
+				D91D833A24796531000FEAD1 /* Frameworks */,
+				D91D833B24796531000FEAD1 /* Resources */,
+				378AABCFA1D9520E754C1F3B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pixel City";
+			productName = "Pixel City";
+			productReference = D91D833D24796531000FEAD1 /* Pixel City.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D91D833524796531000FEAD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Mohamed;
+				TargetAttributes = {
+					D91D833C24796531000FEAD1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D91D833824796531000FEAD1 /* Build configuration list for PBXProject "Pixel City" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D91D833424796531000FEAD1;
+			productRefGroup = D91D833E24796531000FEAD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D91D833C24796531000FEAD1 /* Pixel City */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D91D833B24796531000FEAD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91D834D24796534000FEAD1 /* LaunchScreen.storyboard in Resources */,
+				D91D834A24796534000FEAD1 /* Assets.xcassets in Resources */,
+				D91D834824796531000FEAD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D7AAFAD5AD53BDC1D68AF4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pixel City-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		378AABCFA1D9520E754C1F3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pixel City/Pods-Pixel City-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pixel City/Pods-Pixel City-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pixel City/Pods-Pixel City-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D91D833924796531000FEAD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BD9FEB248670360094C5A8 /* Dropablepin.swift in Sources */,
+				D9A1F192248D541500762011 /* PhotoCell.swift in Sources */,
+				D91D834524796531000FEAD1 /* MapVC.swift in Sources */,
+				D91D834124796531000FEAD1 /* AppDelegate.swift in Sources */,
+				D91D834324796531000FEAD1 /* SceneDelegate.swift in Sources */,
+				D9F2748824902204008B5A93 /* Constants.swift in Sources */,
+				D99F29362494E902007F5CD8 /* PopVc.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D91D834624796531000FEAD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D91D834724796531000FEAD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D91D834B24796534000FEAD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D91D834C24796534000FEAD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D91D834F24796534000FEAD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D91D835024796534000FEAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D91D835224796534000FEAD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC7F0412C9ADE412A1EE5D50 /* Pods-Pixel City.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pixel City/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "moh.Pixel-City";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D91D835324796534000FEAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA0E2B54D9593CAEABAB770 /* Pods-Pixel City.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pixel City/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "moh.Pixel-City";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D91D833824796531000FEAD1 /* Build configuration list for PBXProject "Pixel City" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91D834F24796534000FEAD1 /* Debug */,
+				D91D835024796534000FEAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D91D835124796534000FEAD1 /* Build configuration list for PBXNativeTarget "Pixel City" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91D835224796534000FEAD1 /* Debug */,
+				D91D835324796534000FEAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D91D833524796531000FEAD1 /* Project object */;
+}
